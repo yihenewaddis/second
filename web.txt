@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="yihenew addis">
+    
+    <title>yihene</title>
+   <style>
+        .addis{
+            border: 2px;
+            border-radius: 10px;
+            list-style-type: none;
+            margin: 0%;
+            padding: 0%;
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        .add{
+            float: left;
+            font-size: 15px;
+            background-color: darkslateblue;
+            border: 2px;
+            border-radius: 10px;
+            border-color: red;
+            border-width: 2px;
+            display: block;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+            color: white;
+        }
+        .add:hover{
+            background-color:rgb(42, 165, 95);
+        }
+        .yihenew{
+             list-style-type:circle;
+             background-color: wheat; 
+        }
+        .yihenew:hover{
+            background-color: green;
+        }
+        * {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding:20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main,.menu {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+    </style>
+</head>
+<body style="width: 60%;padding:20px;">
+    <ul class="addis">
+        <dev>      
+        <li class="add"><a class="add" href="https://www.youtube.com/watch?v=P805nIjoT1c&list=RDP805nIjoT1c&start_rasio=1" >HOME</a></li>
+        <li class="add"><a class="add" href="https://www.youtube.com/watch?v=P805nIjoT1c&list=RDP805nIjoT1c&start_radio=1" >NEWS</a></li>
+        <li class="add"><a class="add" href="https://www.youtube.com/watch?v=P805nIjoT1c&list=RDP805nIjoT1c&start_radio=1" >CONTACT</a></li>
+        <li class="add"><a class="add" href="https://www.youtube.com/watch?v=P805nIjoT1c&list=RDP805nIjoT1c&start_radio=1" >ABOUT</a></li>
+        </dev>
+        </ul>
+
+        <iframe src="https://www.bing.com" style="width:100% ;height:300px;border:none;padding-top: 15px;border-radius:10px;border-top-right-radius: 10px;"title="discription"></iframe>
+
+
+        <h2 style="text-align:center;background-color: darkblue;padding: 20px;color: wheat;border:2px solid black;border-radius: 10px;"><u>my first web start from list</u></h2>
+    <a href="#yihenew" button style="border-radius:10px;background-color:black;color:white">go to the last title</button></a>
+    <hr>
+    <div style="background-color:black;color:white;padding:20px;border:2px solid black;border-radius:10px">
+        <h2>London</h2>
+        <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+      </div> 
+      
+    <p>
+    <img src="image/berd.jpg" style="width: 200pxpx ;height: 70px;">
+    <img src="image/flower.jpg" style="width: 200pxpx ;height: 70px;">
+    <img src="image/tree.jpg" style="width: 200pxpx ;height: 70px;">
+    <img src="image/watter.jpg" style="width: 200pxpx ;height: 70px;">
+    <img src="image/berd.jpg" style="width: 200pxpx ;height: 70px;">
+    <img src="image/flower.jpg" style="width: 200pxpx ;height: 70px;">
+    <img src="image/tree.jpg" style="width: 200pxpx ;height: 70px;">
+
+    </p>
+        
+       
+        <hr>
+        <ul class="yihenew">
+        <li>yihenew</li>
+        <li>abrham</li>
+        <li>brhanu</li>
+        </ul> 
+        <hr>
+        <ul class="yihenew">
+         <li>yihenew</li>
+         <ul class="yihenew">
+            <li>student</li>
+            <li>bahirdar</li>
+            </ul>
+         </ul>
+         <ul class="yihenew">
+         <li>birhanu</li>
+         <ul class="yihenew">
+         <li>student</li>
+         <li>woldeya</li>
+         </ul>
+        </ul>  
+       <h1 id="yihenew" style="text-align:center;"><span style="border:2px solid black;border: radies 10px; padding: 15px; border-radius:10px;">this is the last heding</span></h1>
+            <iframe width="100%" height="300" src="https://www.youtube.com/embed/yEzOrVGhRbE" title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            
+        <h2 style="text-align:center;border-radius:10px">hello student</h2>
+        <hr>
+        <h3 style="text-align:center">some information about some country</h3>
+      <dev>
+        <h1 style="text-align:center">how can we change the leyout</h1>
+        <p>yihenew here you creat two box whoch is conect to each other with ther side and fill some thing as a content then see how the 
+            change is ocure during the device width get to minimize
+        </p>
+      </dev>
+      <div style="background-color:#f1f1f1;padding:15px;">
+  <h1 style="font-size:5vw">Cinque Terre</h1>
+  <h3>Resize the browser window</h3>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">The Walk</div>
+    <div class="menuitem">Transport</div>
+    <div class="menuitem">History</div>
+    <div class="menuitem">Gallery</div>
+  </div>
+
+  <div class="main" >
+    <h2>The Walk</h2>
+    <p>The walk from Monterosso to Riomaggiore will take you approximately two hours, give or take an hour depending on the weather conditions and your physical shape.</p>
+    <img src="image/country.jpg" style="width:100%">
+    <p>this is the bewtyfull country in the world whai i ever seen</p>
+  </div>
+
+  <div class="right">
+    <h2>What?</h2>
+    <p>Cinque Terre comprises five villages: Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore.</p>
+    <h2>Where?</h2>
+    <p>On the northwest cost of the Italian Riviera, north of the city La Spezia.</p>
+    <h2>Price?</h2>
+    <p>The Walk is free!</p>
+  </div>
+</div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> This web page is a part of a demonstration of fluid web design made by w3schools.com. Resize the browser window to see the content respond to the resizing.</div>
+
+</body>
+</html>
+    
