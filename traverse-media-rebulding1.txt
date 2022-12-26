@@ -14,7 +14,7 @@
     <div class="cont">
     <nav class="navbar">
         <div class="cntaner">
-            <div class="logo"><h1>yihenew</h1></div>
+            <div class="logo"><i class="fa-brands fa-yahoo"></i></div>
             <div class="list">
                 <ul>
                     <li><a href="#"> <i class="fa-solid fa-house"></i> home</a></li>
@@ -27,8 +27,8 @@
     <div class="header">
         <div class="cntaner">
             <div class="cntent">
-                <h1>first yihenew webpage</h1>
-                <p> my name is yihenew addis and i wes born in sedia in 1982
+                <h1>my first webpage</h1>
+                <p> my name is yihenew addis and i wes born  in 1982 at sedia near to motaa
                     and know a time i am a student of bahirda university
                     poly coumpus in computer science fild so it is enough about me 
                     and what about you
@@ -46,13 +46,14 @@
                 </p>
             </div>
             <div class="box">
+                
                 <h2> <i class="fa-brands fa-solid  fa-tiktok"></i> tricky positioning</h2>
                 <p>flex box usually solves tricky problems including how to positioning
                     or dinamcally reside elements on a page
                 </p>
             </div>
             <div class="box">
-                <h2> <i class="fa-solid fa-check"></i>responsiv design</h2>
+                <h2> <i class="fa-solid fa-yin-yang"></i></i>responsiv design</h2>
                 <p>flex box makes building a website layout (and making it responsive)
                     much much easier
                 </p>
@@ -98,6 +99,7 @@ body{
   
     
 }
+
 .navbar .cntaner{
 display:flex;
 justify-content: space-between;
@@ -107,8 +109,7 @@ header.cntaner .cntent {
     align-items: center;
 }
 .navbar .cntaner.logo{
-    font-size: x-large;
-    font-weight: bold;
+    
     transition: 0.5s;
 }
 .navbar .cntaner ul{
@@ -143,22 +144,28 @@ margin: 10px 20px;
     padding-bottom: 20px;
 }
 .cntent p{
-    padding-right: 30px;
+    padding-right: 0px;
 }
  img{
     max-width: 400px;
 }
 .fa-solid{
     padding-right: 10px;
+    
+    display: inline-block;
 }
 .box{
     background-color:#0a51cc ;
     margin: 10px 10px;
     border-radius: 10px;
     flex: 1;
+    color:#fff;
     min-height: 300px;
     padding:90px 30px;
     box-shadow: 0,3px,5px rgba(0,0,0,0.6);
+}
+.box h2{
+    font-weight: bold;
 }
 .section{
     display: flex;
