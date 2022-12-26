@@ -1,0 +1,173 @@
+/* the himl part of the project*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first webpage</title>
+    <script src="https://kit.fontawesome.com/4b820c360b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/final/css/pro1.css">
+   
+</head>
+<body>
+    <div class="cont">
+    <nav class="navbar">
+        <div class="cntaner">
+            <div class="logo"><h1>yihenew</h1></div>
+            <div class="list">
+                <ul>
+                    <li><a href="#"> <i class="fa-solid fa-house"></i> home</a></li>
+                    <li><a href="#"> <i class="fa-solid fa-phone"></i> contact</a></li>
+                    <li><a href="#">about</a></li>
+                </ul>
+            </div>
+            </div>
+    </nav>
+    <div class="header">
+        <div class="cntaner">
+            <div class="cntent">
+                <h1>first yihenew webpage</h1>
+                <p> my name is yihenew addis and i wes born in sedia in 1982
+                    and know a time i am a student of bahirda university
+                    poly coumpus in computer science fild so it is enough about me 
+                    and what about you
+                </p>
+            </div>
+            <div class="image"><img src="/image/grid.svg" alt="this "></div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="cntaner">
+            <div class="box">
+                <h2> <i class="fa-solid fa-arrows-up-down"></i> alignment & spaces</h2>
+                <p>a more efficient way to loy out align and distribute space among 
+                    item in a container
+                </p>
+            </div>
+            <div class="box">
+                <h2> <i class="fa-brands fa-solid  fa-tiktok"></i> tricky positioning</h2>
+                <p>flex box usually solves tricky problems including how to positioning
+                    or dinamcally reside elements on a page
+                </p>
+            </div>
+            <div class="box">
+                <h2> <i class="fa-solid fa-check"></i>responsiv design</h2>
+                <p>flex box makes building a website layout (and making it responsive)
+                    much much easier
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
+/* css part of the project*/
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    font-family:'popins',sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color:#333;
+    background-color: #a1c3ff;
+
+}
+.cntaner{
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width:1300px;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    display: flex;
+}
+
+.navbar{
+    background-color: #3474e6;
+    color:#fff;
+    width:100%;
+    height:60px;
+  
+    
+}
+.navbar .cntaner{
+display:flex;
+justify-content: space-between;
+}
+header.cntaner .cntent {
+    align-items: center;
+    align-items: center;
+}
+.navbar .cntaner.logo{
+    font-size: x-large;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.navbar .cntaner ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+.navbar .cntaner ul li{
+    margin-left: 20px;
+}
+.navbar .cntaner ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.navbar .cntaner ul li a:hover ,.logo:hover{
+color:red;
+}
+.header{
+    background-color: #0151cc;
+    width: 100%;
+}
+.cntent {
+color:#fff;
+margin: 10px 20px;
+}
+.cntent h1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    padding-bottom: 20px;
+}
+.cntent p{
+    padding-right: 30px;
+}
+ img{
+    max-width: 400px;
+}
+.fa-solid{
+    padding-right: 10px;
+}
+.box{
+    background-color:#0a51cc ;
+    margin: 10px 10px;
+    border-radius: 10px;
+    flex: 1;
+    min-height: 300px;
+    padding:90px 30px;
+    box-shadow: 0,3px,5px rgba(0,0,0,0.6);
+}
+.section{
+    display: flex;
+   
+}
+@media(max-width:600px){
+    .cntaner ,.cntent{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
